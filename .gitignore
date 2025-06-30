@@ -1,24 +1,25 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# Ignore system/user files
+.vscode/
+AppData/
+Desktop/
+Downloads/
+Documents/
+*.blb
+*.bin
+*.DAT
+*.ini
+*.regtrans-ms
+*.LOG1
+*.LOG2
 
-node_modules
-dist
-dist-ssr
-*.local
+# Ignore Python and node environments
+miniconda3/
+node_modules/
+__pycache__/
+*.pyc
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Ignore VS Code extensions and settings
+.vscode/extensions/
+
+# Ignore workspace files
+workspace/
